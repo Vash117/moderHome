@@ -1,0 +1,119 @@
+.single-steel-house {
+  width: 93vw;
+  min-height: 100vh;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 2rem;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.horizontal-separator {
+  width: 85%;
+  height: 1px;
+  background-color: grey;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+.house-details {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2rem;
+  margin: 1rem;
+  margin: 0 auto;
+}
+.house-blueprint {
+  width: 50%;
+}
+.house-blueprint p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+}
+.house-blueprint img {
+  max-width: 100%;
+}
+.table-holder {
+  width: 40%;
+}
+table {
+  width: 70%;
+  min-height: 25vh;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+th {
+  float: left;
+}
+tr:nth-child(even) {
+  background-color: #ebebeb;
+  border-bottom: 1px solid black;
+}
+td:nth-child(odd) {
+  padding-left: 1rem;
+  text-align: left;
+}
+td:nth-child(even) {
+  padding-right: 1rem;
+  text-align: right;
+}
+tr {
+  width: 50%;
+  height: 2.5rem;
+}
+td {
+  min-width: 100%;
+  max-width: auto;
+}
+.steel-house-info {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.steel-house-info h2 {
+  margin-bottom: 1rem;
+}
+.steel-house-info p {
+  line-height: 1.7rem;
+}
+.steel-house-info:nth-child(even) {
+  padding-bottom: 2rem;
+  margin-bottom: 5rem;
+}
+
+.house-details + .house-details {
+  margin-top: 2rem;
+}
+
+#back-btn {
+  width: 15rem;
+  margin: 0 auto;
+  height: 2.5rem;
+  color: #3498db;
+  border-color: #3498db;
+  background-color: transparent;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+
+  cursor: pointer;
+  border: 2px solid;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#back-btn a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+#back-btn:hover {
+  background-color: #3498db;
+  color: white;
+  border: none;
+}
+#back-btn i {
+  font-size: 0.8rem;
+}

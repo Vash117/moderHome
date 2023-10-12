@@ -1,0 +1,112 @@
+.corosel-container {
+  width: 100%;
+  min-height: 60vh;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carosel {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+}
+
+.move-in {
+  transform: translateX(100%);
+}
+.controls {
+  position: absolute;
+  display: flex;
+  width: 15vw;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5%;
+}
+.control {
+  height: 3px;
+  width: 35px;
+  background-color: #bbbbbb;
+  z-index: 5;
+  cursor: pointer;
+}
+.botton {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: transparent;
+  color: #bbbbbb;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 3rem;
+  border-radius: 50%;
+  border: none;
+}
+.botton.left {
+  top: 50%;
+  left: 3%;
+  transform: translateY(-50%);
+}
+.botton.right {
+  top: 50%;
+  right: 3%;
+  transform: translateY(-50%);
+}
+.botton i {
+  font-size: 2.2rem;
+}
+.botton:hover {
+  color: white;
+}
+.control:hover {
+  background-color: white;
+}
+.control.active {
+  background-color: white;
+}
+.info-container {
+  color: #efefef;
+  width: 30%;
+  height: 100%;
+  left: 10%;
+  top: 25%;
+  position: absolute;
+}
+
+.info-container a {
+  text-decoration: none;
+  background-color: #3498db;
+  color: #efefef;
+  font-size: 1rem;
+  padding: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+.info-container a:hover {
+  background-color: #245677;
+}
+.info-container h2 {
+  font-size: 4rem;
+}
+.info-container p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+.info-container * + * {
+  margin-top: 1rem;
+}
+
+a.selected {
+  font-size: 0.9999rem;
+  font-weight: bolder;
+}

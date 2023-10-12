@@ -1,0 +1,39 @@
+.what-we-offer {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  background-color: #efefef;
+  padding: 2rem;
+}
+.main-offer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 25vw;
+  height: 20vh;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.inner-offer {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.main-offer h5 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.main-offer p {
+  text-align: left;
+  font-size: 0.9rem;
+}
+.offer-line {
+  width: 1px;
+  height: 65%;
+  background-color: #707070;
+}
+.main-offer i {
+  font-size: 3rem;
+}

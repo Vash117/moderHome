@@ -1,0 +1,90 @@
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h3 {
+  color: #efefef;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+}
+
+form input,
+form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: white;
+  resize: none;
+}
+
+form input:focus {
+  background-color: rgb(231, 228, 228);
+}
+form button {
+  padding: 15px;
+  background-color: #3498db;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.contacts {
+  background-image: url(./asets/contacts/contacts-heading.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  margin-bottom: 8rem;
+}
+.contacts-inner {
+  width: 80%;
+  height: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+.contacts-info {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  color: #efefef;
+  height: 90%;
+}
+.contacts-info a {
+  color: white;
+  text-decoration: none;
+}
+.contacts-info h3 {
+  color: #efefef;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+}
+.contacts-form {
+  width: 50%;
+  height: 100%;
+}
+.contacts-info ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+.contacts-info li > i {
+  margin-right: 0.5rem;
+  color: #3498db;
+}

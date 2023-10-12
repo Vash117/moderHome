@@ -1,0 +1,28 @@
+.company-info {
+  background-color: #efefef;
+  width: 90%;
+  min-height: 30vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+.seperation-line {
+  height: 20vh;
+  width: 1px;
+  background-color: #444444;
+}
+.company-info > div:not(.seperation-line) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.company-info i {
+  font-size: 2.5rem;
+  /* width: 3rem; */
+  color: #3498db;
+}

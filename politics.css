@@ -1,0 +1,55 @@
+.modal-politics ol {
+  list-style-type: decimal;
+}
+.modal-politics ul {
+  list-style-type: disc;
+}
+.modal-politics li {
+  margin-top: 1rem;
+}
+.modal-politics p {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+.modal-politics {
+  width: 100%;
+  margin: 0 auto;
+  display: none;
+}
+.modal-politics h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.modal-politics {
+  padding-bottom: 3rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+}
+.politics-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+.i-understand {
+  background-color: #3498db;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.i-understand:hover {
+  background-color: white;
+  border: 1px solid #3498db;
+  color: #3498db;
+}
+
+.modal-politics.active-politics {
+  display: block;
+}
+#politics {
+  cursor: pointer;
+}
