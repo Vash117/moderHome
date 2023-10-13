@@ -94,3 +94,51 @@ nav ul {
 #return-to-top.showBtn {
   display: block;
 }
+
+.see-politics {
+  width: 50vw;
+  height: 25vh;
+  background-color: #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.inner p {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+.inner {
+  background-color: white;
+  width: 99.5%;
+  height: 98%;
+  position: relative;
+}
+.inner button {
+  background-color: #3498db;
+  color: white;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.inner button:hover {
+  border: 1px solid #3498db;
+  color: #3498db;
+  background-color: white;
+}
+.close-see-politics {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
