@@ -23,6 +23,19 @@
 }
 .company-info i {
   font-size: 2.5rem;
-  /* width: 3rem; */
   color: #3498db;
+}
+
+@media (max-width: 700px) {
+  .company-info {
+    flex-direction: column;
+  }
+  .seperation-line {
+    height: 1px;
+    width: 15vmax;
+  }
+  .company-info > div:not(.seperation-line) {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
 }

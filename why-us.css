@@ -1,5 +1,5 @@
 .why-us {
-  width: 90vw;
+  max-width: 90vw;
   min-height: 60vh;
   background-color: white;
   margin: 2rem auto;
@@ -78,4 +78,51 @@
 .big {
   height: 100%;
   background-color: #b69f8c;
+}
+
+@media (max-width: 700px) {
+  .why-us {
+    grid-template-columns: 1fr;
+    text-align: center;
+    width: 100%;
+    grid-template-rows: 1.5fr 3fr 0.025fr 0.05fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .image {
+    width: 100%;
+    background-size: cover;
+    /* background-image: right; */
+  }
+  .why-us div {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .what-we-do > div > div {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .what-we-do > div > div > div {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .why-us h5 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  .what-we-do i {
+    padding: 1rem;
+  }
+
+  .what-we-do h4 {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+  }
+  .big,
+  .small {
+    width: 100%;
+  }
 }

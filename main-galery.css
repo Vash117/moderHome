@@ -20,3 +20,14 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+@media (max-width: 700px) {
+  .main-galery img {
+    max-width: 10vmin;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+  }
+}
