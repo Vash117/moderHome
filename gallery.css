@@ -68,3 +68,20 @@
   color: rgb(228, 224, 224);
   margin: 2rem;
 }
+
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .gal-pic {
+    width: 40vw;
+    height: 40vw;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .header-gallery.header-container {
+    height: 25vw;
+  }
+}
