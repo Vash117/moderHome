@@ -64,7 +64,7 @@ function router(path) {
     render(result, root);
   }
 }
-
+window.addEventListener("resize", checkNavList);
 //Initial render and after refresh render
 router(location.hash || "#home");
 
@@ -140,4 +140,12 @@ function openBurgerMenu(e) {
 
 function closeBurgerMenu(e) {
   document.querySelector(".nav-list").style.display = "none";
+}
+
+function checkNavList() {
+  if (window.screen.width >= 1000) {
+    document.querySelector(".nav-list").style.display = "flex";
+  } else {
+    document.querySelector(".nav-list").style.display = "none";
+  }
 }

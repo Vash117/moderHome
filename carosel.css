@@ -110,3 +110,30 @@ a.selected {
   font-size: 0.9999rem;
   font-weight: bolder;
 }
+@media (max-width: 600px) {
+  .corosel-container {
+    min-height: 70vh;
+  }
+  .corosel-container h2 {
+    font-size: 3rem;
+  }
+  .corosel-container a {
+    width: 100%;
+  }
+  .controls {
+    gap: 1rem;
+    width: 50vw;
+    bottom: 5%;
+  }
+  .info-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .botton.right,
+  .botton.left {
+    top: 10%;
+  }
+}

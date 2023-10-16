@@ -4,12 +4,13 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-.burger {
+i.burger {
   display: none;
 }
-.close-burger {
+i.close-burger {
   display: none;
 }
+
 body {
   background-color: #efefef;
   position: relative;
@@ -152,10 +153,10 @@ nav ul {
   .nav-list {
     display: none;
   }
-  .close-burger {
+  i.close-burger {
     display: block;
   }
-  .burger {
+  i.burger {
     display: block;
     font-size: 2rem;
     margin-right: 1rem;
@@ -177,13 +178,13 @@ nav ul {
   .logo {
     margin-top: 0.5rem;
   }
-  .burger {
+  i.burger {
     display: block;
     font-size: 2rem;
     margin-right: 1rem;
   }
-  .close-burger {
-    display: block;
+  i.close-burger {
+    display: block !important;
   }
   #underscore {
     display: none;
