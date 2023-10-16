@@ -47,6 +47,10 @@ closePoliticsModal.addEventListener(
   "click",
   () => (document.querySelector(".see-politics").style.display = "none")
 );
+const burgerOpen = document.querySelector(".burger");
+burgerOpen.addEventListener("click", openBurgerMenu);
+const burgerCloseBtn = document.querySelector(".close-burger");
+burgerCloseBtn.addEventListener("click", closeBurgerMenu);
 function router(path) {
   if (path.includes("#steel-houses/")) {
     let itemIndex = window.location.hash.split("/")[1];
@@ -80,6 +84,9 @@ function setActiveLink(e) {
   if (e.target.tagName === "A") {
     navLinks.forEach((link) => link.classList.remove("selected"));
     e.target.classList.add("selected");
+    if (window.getComputedStyle(burgerOpen).display === "block") {
+      closeBurgerMenu();
+    }
   }
 }
 
@@ -119,11 +126,18 @@ function checkPolitics() {
     document.querySelector(".see-politics").style.display = "none";
     return;
   } else {
-    console.log("not visited");
     document.querySelector(".see-politics").style.display = "flex";
   }
 }
 
 function setToken() {
   localStorage.visitedModernHome = true;
+}
+
+function openBurgerMenu(e) {
+  document.querySelector(".nav-list").style.display = "flex";
+}
+
+function closeBurgerMenu(e) {
+  document.querySelector(".nav-list").style.display = "none";
 }
