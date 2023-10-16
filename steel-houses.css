@@ -86,3 +86,26 @@
   line-height: 1.7rem;
   font-weight: lighter;
 }
+@media (max-width: 600px) {
+  .steel-house-footer {
+    flex-direction: column;
+    max-height: 100%;
+    justify-content: space-between;
+  }
+  .steel-haouse-descreption {
+    width: 100%;
+  }
+  .steel-haouse-descreption + .steel-haouse-descreption {
+    margin-top: 2rem;
+  }
+  .steel-houses-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .steel-house-container {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  .text-steel-house-holder a {
+    width: 50%;
+  }
+}

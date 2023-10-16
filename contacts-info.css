@@ -5,6 +5,7 @@ form {
   width: 90%;
   max-width: 600px;
   border-radius: 10px;
+  margin: 0 auto;
 }
 
 form h3 {
@@ -87,4 +88,24 @@ form button {
 .contacts-info li > i {
   margin-right: 0.5rem;
   color: #3498db;
+}
+
+@media (max-width: 600px) {
+  .contacts-inner {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .contacts {
+    height: auto;
+  }
+  .contacts-info {
+  }
+  .contacts-inner > div {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem;
+  }
 }
