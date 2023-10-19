@@ -175,8 +175,39 @@
     border-bottom: 7.9vw solid #aaddff;
     background-color: #aaddff;
   }
-  .top {
-    height: 70vmax;
+  .top,
+  .bottom {
+    min-height: 110vmax;
+    height: 100%;
+  }
+  .bottom {
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom .calapsable-inner * + * {
+    margin-top: 30%;
+  }
+  .bottom .replace-image {
+    transform: scale(3);
+  }
+  .calapsable-inner {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .text-holder {
+    width: 100%;
+    height: 50%;
+  }
+  .replace-image {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
   }
   .container-footer {
     height: auto;
