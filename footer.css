@@ -70,9 +70,10 @@ footer > div > div {
 @media (max-width: 1100px) {
   .contact-mail button {
     width: 150%;
+    height: 2rem;
   }
   footer {
-    min-height: 35vh;
+    height: 30vmax;
   }
 
   footer i {
