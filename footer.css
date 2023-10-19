@@ -26,6 +26,9 @@ footer li {
   display: flex;
   align-items: center;
 }
+footer li i {
+  color: #3498db;
+}
 footer ul {
   display: flex;
   flex-direction: column;
@@ -92,7 +95,7 @@ footer > div > div {
     margin-bottom: 2rem;
   }
   .contact-mail button {
-    height: 6vh;
+    /* height: 6vh; */
     width: 100%;
   }
   .info {

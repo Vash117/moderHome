@@ -35,10 +35,9 @@ const contactsVeiwTemplate = () => html`
             ><a href="mailto:office@modernhouse.bg">office@modernhouse.bg</a>
           </li>
           <li>
-            <i class="fa-solid fa-location-dot"></i>ул.извънрегулация
-            4,Калековец
+          <a href="https://maps.app.goo.gl/WLiiVLf13SujLUkV9" target="_blank"><i class="fa-solid fa-location-dot"></i>изхода на с. Труд 
           </li>
-
+          </a>
           <li><i class="fa-regular fa-clock"></i>9:00 AM - 18:00 PM</li>
         </ul>
       </div>

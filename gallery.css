@@ -65,7 +65,7 @@
   right: 0;
   font-size: 3rem;
   background-color: transparent;
-  color: rgb(228, 224, 224);
+  color: rgb(228, 224, 224) !important;
   margin: 2rem;
 }
 

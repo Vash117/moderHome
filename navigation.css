@@ -6,9 +6,11 @@
 }
 i.burger {
   display: none;
+  color: black;
 }
 i.close-burger {
   display: none;
+  color: black;
 }
 
 body {
@@ -36,6 +38,12 @@ nav a {
   justify-content: space-evenly;
   align-items: center;
 }
+.nav-list > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
 .logo {
   padding-left: 3vw;
   padding-top: 0.3vw;
@@ -48,7 +56,7 @@ nav ul {
   list-style: none;
 }
 .contact-info {
-  height: 5vh;
+  height: 1.5vmax;
   max-width: 100vw;
   background-color: #3498db;
   display: flex;
@@ -151,7 +159,7 @@ nav ul {
 @media (max-width: 1100px) {
   .nav-list {
     display: none;
-    flex-direction: column;
+    /* flex-direction: column; */
     height: 100vh;
     position: fixed;
     top: 0;
@@ -160,8 +168,16 @@ nav ul {
     width: 100vw;
     background-color: white;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
+
     /* margin: 0 auto; */
+  }
+  .nav-list > div {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 50%;
   }
   .nav-list li,
   i {
@@ -169,6 +185,9 @@ nav ul {
   }
   .logo {
     margin-top: 0.5rem;
+  }
+  .nav-list li {
+    border-bottom: 1px solid grey;
   }
   i.burger {
     display: block;
@@ -178,13 +197,18 @@ nav ul {
   }
   i.close-burger {
     display: block !important;
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    right: 0;
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
   }
   #underscore {
     display: none;
   }
   .contact-info {
-    min-height: 5vh;
-    height: auto;
     justify-content: space-between;
   }
   .phone-holder {
@@ -192,6 +216,9 @@ nav ul {
   }
 }
 @media (max-width: 1100px) {
+  .nav-list li {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 700px) {
   .nav-list {
@@ -207,10 +234,17 @@ nav ul {
     align-items: center;
     justify-content: flex-start;
   }
+  .nav-list li {
+    font-size: 1rem;
+  }
+  .nav-list > div {
+    height: auto;
+  }
   .nav-list li,
   i {
     margin-top: 2rem;
   }
+
   .logo {
     margin-top: 0.5rem;
   }
