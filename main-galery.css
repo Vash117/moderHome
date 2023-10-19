@@ -20,14 +20,20 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
-
-@media (max-width: 700px) {
-  .main-galery img {
-    max-width: 10vmin;
-  }
+@media (max-width: 1100px) {
   .wrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+  }
+}
+@media (max-width: 700px) {
+  .main-galery img {
+    max-width: 100%;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
   }
 }

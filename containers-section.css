@@ -135,7 +135,6 @@
 }
 .c-footer-inner p {
   width: 50%;
-  height: 50%;
   line-height: 1.7rem;
   color: #efefef;
 }
@@ -168,7 +167,32 @@
   align-items: center;
   opacity: 1;
 }
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
+  .separator {
+    width: 0;
+    height: 0;
+    border-left: 100vw solid #cbeaff;
+    border-bottom: 7.9vw solid #aaddff;
+    background-color: #aaddff;
+  }
+  .top {
+    height: 70vmax;
+  }
+  .container-footer {
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .c-footer-inner {
+    flex-direction: column;
+  }
+  .c-footer-inner p {
+    width: 90%;
+  }
+}
+@media (max-width: 700px) {
   .inner-modal {
     width: 100%;
     height: 100%;
@@ -179,13 +203,15 @@
   .calapsable-containers {
     max-width: 100%;
     margin: 0 auto;
-    height: auto;
+    gap: 1rem;
+  }
+  .single-container {
+    padding: 0;
   }
   .top,
   .bottom {
-    min-height: 110vh;
-
-    /* margin-bottom: 2rem; */
+    min-height: 110vmax;
+    height: 100%;
   }
   .bottom {
     margin-bottom: 2rem;
@@ -194,24 +220,27 @@
     display: flex;
     flex-direction: column;
   }
+  .bottom .calapsable-inner * + * {
+    margin-top: 30%;
+  }
   .bottom .replace-image {
-    padding-top: 30%;
-    transform: scale(2);
+    transform: scale(3);
   }
   .calapsable-inner {
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
-    height: auto;
   }
   .text-holder {
     width: 100%;
+    height: 50%;
   }
   .replace-image {
-    width: 50%;
+    width: 100%;
     justify-content: center;
     align-items: center;
+    height: 50%;
   }
   .separator {
     width: 0;
@@ -226,9 +255,13 @@
   }
   .c-footer-inner {
     flex-direction: column;
-    width: 100%;
+    width: 90%;
   }
   .c-footer-inner p {
     width: 90%;
+  }
+  .c-footer-inner img {
+    max-width: 100%;
+    height: 50vh;
   }
 }

@@ -163,11 +163,14 @@ const SingleSteelHouseTemplate = (item, index) => html`
       </p>
     </div>
   </section>
-  <a href="#steel-houses">
-    <button id="back-btn">
-      <i class="fa-solid fa-chevron-left"></i> Назад
-    </button></a
-  >
+  <div class="solo-a">
+    <a href="#steel-houses">
+      <button id="back-btn">
+        <i class="fa-solid fa-chevron-left"></i>
+        Назад
+      </button></a
+    >
+  </div>
 `;
 
 const setTableRows = (item) => html`

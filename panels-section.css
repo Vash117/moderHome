@@ -4,8 +4,7 @@
 .panels-main {
   margin-top: 5rem;
   width: 100%;
-  height: 80vh;
-
+  min-height: 80vh;
   margin-bottom: 10rem;
 }
 .panels-container {

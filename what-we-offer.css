@@ -37,12 +37,29 @@
 .main-offer i {
   font-size: 3rem;
 }
+@media (max-width: 1100px) {
+  .what-we-offer {
+    gap: 1rem;
+  }
 
-@media (max-width: 700px) {
+  .main-offer {
+    width: 42vw;
+  }
+}
+@media (max-width: 850px) {
   .what-we-offer {
     flex-direction: column;
+    gap: 1rem;
+  }
+  .main-offer i {
+    margin-top: 0;
   }
   .main-offer {
     width: 100%;
+    margin-top: 1rem;
+    height: 8rem;
+  }
+  .offer-line {
+    height: 10vh;
   }
 }

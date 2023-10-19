@@ -86,7 +86,24 @@
   line-height: 1.7rem;
   font-weight: lighter;
 }
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
+  .steel-house-footer {
+    flex-direction: column;
+    max-height: 100%;
+  }
+  .steel-haouse-descreption {
+    width: 90%;
+    margin-top: 2rem;
+  }
+  .steel-house-container {
+    width: 75%;
+  }
+  .steel-houses-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+}
+@media (max-width: 700px) {
   .steel-house-footer {
     flex-direction: column;
     max-height: 100%;
@@ -99,7 +116,8 @@
     margin-top: 2rem;
   }
   .steel-houses-gallery {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
   }
   .steel-house-container {
     width: 100%;

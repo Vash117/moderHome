@@ -26,6 +26,10 @@
   color: #3498db;
 }
 
+.company-info p:nth-child(3) {
+  font-weight: 100;
+}
+
 @media (max-width: 700px) {
   .company-info {
     flex-direction: column;
