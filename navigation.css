@@ -37,6 +37,7 @@ nav a {
   max-width: 75%;
   justify-content: space-evenly;
   align-items: center;
+  overflow: scroll;
 }
 .nav-list > div {
   display: flex;
@@ -210,6 +211,7 @@ nav ul {
   }
   .contact-info {
     justify-content: space-between;
+    min-height: 5vh;
   }
   .phone-holder {
     display: block;
@@ -217,7 +219,10 @@ nav ul {
 }
 @media (max-width: 1100px) {
   .nav-list li {
-    font-size: 2rem;
+    font-size: 1rem;
+  }
+  .nav-list > div {
+    height: auto;
   }
 }
 @media (max-width: 700px) {
