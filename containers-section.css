@@ -295,4 +295,12 @@
     max-width: 100%;
     height: 50vh;
   }
+  .containers {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .single-container {
+    margin-top: 1rem;
+    padding: 0;
+  }
 }
