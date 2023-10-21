@@ -221,8 +221,13 @@ nav ul {
   .nav-list li {
     font-size: 1rem;
   }
+
   .nav-list > div {
     height: auto;
+  }
+  i.close-burger {
+    margin-right: 1rem;
+    margin-top: 2.1 rem;
   }
 }
 @media (max-width: 700px) {
@@ -238,6 +243,7 @@ nav ul {
     background-color: white;
     align-items: center;
     justify-content: flex-start;
+    padding-top: 2rem;
   }
   .nav-list li {
     font-size: 1rem;
