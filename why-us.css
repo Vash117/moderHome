@@ -19,14 +19,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: #00000029; */
   width: 75%;
   padding-left: 5%;
 }
 .what-we-do > div {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   gap: 1rem;
 }
 .what-we-do > div > div {
@@ -36,7 +34,6 @@
   width: auto;
   height: auto;
   gap: 1rem;
-  /* background-color: red; */
 }
 .what-we-do i {
   font-size: 3rem;
