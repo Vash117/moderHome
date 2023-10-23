@@ -137,7 +137,7 @@ a.selected {
     height: 70vmax;
   }
   .corosel-container h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .corosel-container a {
     margin-top: 20%;
@@ -146,7 +146,7 @@ a.selected {
   .controls {
     gap: 1rem;
     width: 15rem;
-    bottom: 5%;
+    bottom: 13%;
   }
   .info-container {
     width: 80%;
@@ -163,10 +163,13 @@ a.selected {
   }
   .info-container h2 {
     align-self: start;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .info-container a {
     align-self: start;
     width: 80%;
+  }
+  .carosel {
+    height: 90%;
   }
 }

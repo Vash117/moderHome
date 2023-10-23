@@ -184,9 +184,7 @@ nav ul {
   .logo {
     margin-top: 0.5rem;
   }
-  .nav-list li {
-    border-bottom: 1px solid grey;
-  }
+
   i.burger {
     display: block;
     font-size: 2rem;

@@ -129,4 +129,13 @@ td {
     height: 10rem;
     display: flex;
   }
+  .house-details {
+    flex-direction: column;
+  }
+  .house-blueprint {
+    width: 100%;
+  }
+  .table-holder {
+    width: 100%;
+  }
 }

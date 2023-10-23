@@ -5,7 +5,7 @@ const contactsVeiwTemplate = () => html`
   <section class="contacts">
     <div class="contacts-inner">
       <div class="contacts-form">
-        <form action="https://submit-form.com/Drc3Ctks">
+        <form action="https://submit-form.com/HRKZbYxa">
           <h3>Бързо запитване</h3>
           <input type="text" name="name" placeholder="Име *" required />
           <input type="email" name="email" placeholder="Email *" required />
@@ -24,12 +24,18 @@ const contactsVeiwTemplate = () => html`
         <ul>
           <li>
             <i class="fa-solid fa-phone-volume"></i
-            ><a href="tel:+359899863329">+359 899 86 33 29</a>
+            >
+            <a href="tel:+359899863329">+359 899 86 33 29</a>           
           </li>
           <li>
             <i class="fa-solid fa-phone-volume"></i
-            ><a href="tel:+359899863329">+359 899 86 33 29</a>
+            ><a href="tel:+359876711744">+359 876 71 17 44</a>
           </li>
+          <li>
+          <i class="fa-solid fa-phone-volume"></i
+          >
+          <a href="tel:+359878789021">+359 878 78 09 21</a>           
+        </li>
           <li>
             <i class="fa-solid fa-envelope"></i
             ><a href="mailto:office@modernhouse.bg">office@modernhouse.bg</a>

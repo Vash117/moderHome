@@ -41,7 +41,9 @@
   .what-we-offer {
     gap: 1rem;
   }
-
+  .main-offer i {
+    margin-top: 0;
+  }
   .main-offer {
     width: 42vw;
   }
@@ -53,6 +55,7 @@
   }
   .main-offer i {
     margin-top: 0;
+    font-size: 2rem;
   }
   .main-offer {
     width: 100%;
